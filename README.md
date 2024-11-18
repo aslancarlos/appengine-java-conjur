@@ -1,8 +1,8 @@
 # Spring Boot Application with Conjur Authn-GCP Integration
 
-## Overview
+$1
 
-This repository contains a Java Spring Boot application that integrates with Conjur for secret management using the Authn-GCP authentication method. The application securely obtains secrets from Conjur by authenticating via Google Cloud's JWT tokens, ensuring a robust and secure mechanism for accessing sensitive credentials. This setup demonstrates best practices for managing secrets in cloud-native applications, utilizing Conjur's capabilities to provide secure and dynamic credential management.
+**Note**: This project is intended as a proof of concept and test for this integration. It does not have official support from CyberArk.
 
 ## Features
 
@@ -65,11 +65,11 @@ The application will start on port `8080` by default. You can access it at `http
 
 Once the application is running, it will authenticate with Conjur using the provided GCP JWT and retrieve the configured secrets.
 
-
 ## Important Parameters to Update
 
 Make sure to update the following parameters before running the application:
 
+- Update the values of secrets in `ConjurController.java` to ensure the correct secret paths are used.
 - `conjur.auth.url`: The Conjur authentication URL, including the Authn-GCP endpoint.
 - `conjur.secrets.url`: The URL for accessing secrets in Conjur.
 - `gcp.project-id`: The Google Cloud project ID where the service account resides.

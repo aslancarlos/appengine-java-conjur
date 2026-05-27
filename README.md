@@ -1,6 +1,6 @@
 # Spring Boot Application with Conjur Authn-GCP Integration
 
-$1
+A Spring Boot application that authenticates to CyberArk Conjur Cloud using Google Cloud Platform identity tokens (`authn-gcp`). Instead of storing a long-lived Conjur API key, the app obtains a short-lived GCP JWT and trades it for Conjur access — a federated, zero-static-secret pattern suited for workloads running on GCP (App Engine, Cloud Run, GKE, Compute Engine).
 
 **Note**: This project is intended as a proof of concept and test for this integration. It does not have official support from CyberArk.
 
@@ -86,7 +86,7 @@ Contributions are welcome! Please fork this repository and open a pull request t
 
 ## License
 
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+This project is licensed under the Apache License 2.0 — see the [LICENSE](LICENSE) file for details.
 
 ## Contact
 

@@ -16,7 +16,7 @@
         <dependency>
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-starter-web</artifactId>
-            <version>3.5.14</version>
+            <version>4.0.6</version>
         </dependency>
 
         <!-- Override transitive tomcat-embed-core to fix CVE-2026-41293/43512/43515 -->

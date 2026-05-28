@@ -23,7 +23,7 @@
         <dependency>
             <groupId>org.apache.tomcat.embed</groupId>
             <artifactId>tomcat-embed-core</artifactId>
-            <version>10.1.55</version>
+            <version>11.0.22</version>
         </dependency>
 
         <!-- Override transitive protobuf-java to fix CVE-2024-7254 -->
